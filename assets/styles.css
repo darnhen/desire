@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, html, body{
+    box-sizing: border-box;
+}
+
+/*CSS Begins!*/
+
+@font-face {
+    font-family: "me";
+    src: url("texgyreheroscn-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "anne-carson";
+    src: url("CirrusCumulus.woff");
+}
+
+body{
+    background-color: black;
+}
+
+#edge p, h1{
+    color: white;
+    font-family: 'anne-carson', 'Times New Roman', Times, serif;
+    padding: 15px;
+    width: 350px;
+    height: auto;
+    text-align: justify;
+    line-height: 2;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 35px;
+    line-height: normal;
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+/* #edge, h1{
+    position: relative;
+    z-index: 3;
+    mix-blend-mode: overlay;
+} */
+
+#edge p, h1{
+    margin-left: 35px;
+}
+
+#edge p:nth-child(odd){
+    font-family: 'me', 'Times New Roman', Times, serif;
+    margin-left: 15px;
+}
+
+h1:nth-child(2){
+    font-family: 'me', 'Times New Roman', Times, serif;
+}
+
+/* .cd-image img{
+    width: 50%;
+    height: 50%;
+    border: 1px red solid; 
+}
+
+.cd-image{
+    position: fixed;
+    z-index: 0;
+    top: 0;
+} */
